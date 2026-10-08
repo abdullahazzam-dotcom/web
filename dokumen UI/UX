@@ -1,0 +1,148 @@
+<!DOCTYPE html><html lang="id"><head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Biodata Anggota Kelompok</title>
+</head><body>  <!-- Header -->  <header>
+    <h1>BIODATA ANGGOTA KELOMPOK 1</h1>
+    <p>
+      Mata Kuliah: Pemrograman Web – Desain UI/UX
+    </p>
+  </header>  <hr>  <!-- Anggota Kelompok -->  <main><h2>Anggota Kelompok</h2>
+
+<!-- 1. Abdullah Azzam -->
+<section>
+
+  <h3>1. Abdullah Azzam</h3>
+
+  <img
+    src="assets/az.jpg"
+    alt="Foto Abdullah Azzam"
+    width="150"
+  >
+
+  <p><strong>Status:</strong> Ketua</p>
+  <p><strong>NIM:</strong> 0110226038</p>
+  <p><strong>Kelas:</strong> TI 02</p>
+  <p><strong>Hobi:</strong> Futsal</p>
+  <p><strong>Minat:</strong> Cyber Security, Pemrograman</p>
+
+  <h4>Profil</h4>
+
+  <p>
+    Saya merupakan mahasiswa Teknik Informatika yang memiliki
+    ketertarikan pada bidang Cyber Security dan Pemrograman.
+    Saya senang mempelajari teknologi serta hal-hal baru
+    di bidang komputer.
+  </p>
+
+</section>
+
+<hr>
+
+<!-- 2. Afdiah Hasanah Lubis -->
+<section>
+
+  <h3>2. Afdiah Hasanah Lubis</h3>
+
+  <img
+    src="assets/aTO.jpg"
+    alt="Foto Afdiah Hasanah Lubis"
+    width="150"
+  >
+
+  <p><strong>Status:</strong> Anggota</p>
+  <p><strong>NIM:</strong> 0110226081</p>
+  <p><strong>Kelas:</strong> TI 02</p>
+  <p><strong>Hobi:</strong> Billiard, Badminton, Make Up</p>
+  <p><strong>Minat:</strong> Cyber Security</p>
+
+  <h4>Profil</h4>
+
+  <p>
+    Saya merupakan mahasiswa Teknik Informatika yang tertarik
+    mempelajari teknologi dan Cyber Security. Saya juga memiliki
+    beberapa hobi seperti billiard, badminton, dan make up.
+  </p>
+
+</section>
+
+<hr>
+
+<!-- 3. Adli Fadlurahman -->
+<section>
+
+  <h3>3. Adli Fadlurahman</h3>
+
+  <img
+    src="assets/dli.jpg"
+    alt="Foto Adli Fadlurahman"
+    width="150"
+  >
+
+  <p><strong>Status:</strong> Anggota</p>
+  <p><strong>NIM:</strong> 0110226053</p>
+  <p><strong>Kelas:</strong> TI 02</p>
+  <p><strong>Hobi:</strong> Futsal</p>
+  <p><strong>Minat:</strong> Cyber Security, Pemrograman</p>
+
+  <h4>Profil</h4>
+
+  <p>
+    Saya merupakan mahasiswa Teknik Informatika yang memiliki
+    minat pada Cyber Security dan Pemrograman. Saya ingin terus
+    meningkatkan kemampuan di bidang teknologi dan komputer.
+  </p>
+
+</section>
+
+<hr>
+
+<!-- 4. Abdullah Qowiy -->
+<section>
+
+  <h3>4. Abdullah Qowiy</h3>
+
+  <img
+    src="assets/fot.jpg"
+    alt="Foto Abdullah Qowiy"
+    width="150"
+  >
+
+  <p><strong>Status:</strong> Anggota</p>
+  <p><strong>NIM:</strong> 0110226123</p>
+  <p><strong>Kelas:</strong> TI 02</p>
+  <p><strong>Hobi:</strong> Joging</p>
+  <p><strong>Minat:</strong> Artificial Intelligence (AI)</p>
+
+  <h4>Profil</h4>
+
+  <p>
+    Saya merupakan mahasiswa Teknik Informatika yang memiliki
+    ketertarikan pada Artificial Intelligence atau AI.
+    Saya ingin mempelajari perkembangan teknologi dan
+    kecerdasan buatan.
+  </p>
+
+</section>
+
+  </main>  <hr>  <!-- Catatan Kelompok -->  <section><h2>Catatan Kelompok</h2>
+
+<p>
+  Kami berkelompok untuk belajar membuat tampilan web yang
+  menarik, mudah dipakai, dan rapi. Desain UI/UX membantu
+  pengguna merasa nyaman saat mengunjungi halaman web.
+</p>
+
+<p>
+  Semangat belajarnya ya! 💪
+</p>
+
+  </section>  <hr>  <!-- Footer -->  <footer><p>
+  &copy; 2026 Kelompok 1 — Desain UI/UX
+</p>
+
+<p>
+  Praktikum Mandiri Pemrograman Web
+</p>
+
+  </footer></body></html>
