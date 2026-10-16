@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Form Pemesanan Barang</title>
+    <style>
+        body {
+            background-color: #e9e9e9;
+            font-family: Arial, sans-serif;
+            font-size: 13px;
+            margin: 20px;
+        }
+        .window {
+            border: 1px solid #444;
+            background-color: #dddddd;
+            padding: 10px;
+            max-width: 540px;
+        }
+        .window-title {
+            text-align: center;
+            font-size: 12px;
+            margin-bottom: 8px;
+        }
+        .nav-bar {
+            border-bottom: 1px solid #999;
+            padding-bottom: 6px;
+            margin-bottom: 10px;
+        }
+        .nav-bar span {
+            font-size: 12px;
+            margin-right: 10px;
+        }
+        table {
+            width: 100%;
+            border-collapse: separate;
+            border-spacing: 4px;
+        }
+        td {
+            vertical-align: middle;
+            padding: 2px;
+        }
+        label {
+            font-size: 12px;
+        }
+        input, select, textarea {
+            width: 100%;
+            box-sizing: border-box;
+            border: 1px solid #555;
+            padding: 2px 4px;
+            font-size: 12px;
+        }
+        textarea {
+            height: 35px;
+            resize: none;
+        }
+        .img-box {
+            width: 85px;
+            height: 70px;
+            border: 1px solid #333;
+            position: relative;
+            margin-bottom: 5px;
+        }
+        .img-box span {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            font-size: 24px;
+            color: #444;
+        }
+        button {
+            font-size: 11px;
+            padding: 2px 8px;
+            border: 1px solid #666;
+            background-color: #e8e8e8;
+            cursor: pointer;
+        }
+        .small-text {
+            font-size: 10px;
+        }
+        .btn-green {
+            background-color: #28a745;
+            color: white;
+            border: none;
+            padding: 4px 12px;
+            font-size: 12px;
+        }
+    </style>
+</head>
+<body>
+
+<div class="window">
+    <div class="window-title">A Web Page</div>
+
+    <div class="nav-bar">
+        <span>Home</span>
+        <span>Generate Link</span>
+        <span>Transaction History</span>
+        <span>Policy</span>
+        <span>Logout</span>
+    </div>
+
+    <table>
+        <tr>
+            <td rowspan="9" align="center">
+                <div class="img-box"><span>✕</span></div>
+                <button>Select Image</button>
+            </td>
+            <td><label>Title Here</label></td>
+            <td><input type="text" value="Handbook AR 680"></td>
+        </tr>
+        <tr>
+            <td><label>Description</label></td>
+            <td><textarea>Handbook AR 680 - Buku dengan lengkap</textarea></td>
+        </tr>
+        <tr>
+            <td><label>Total Amount</label></td>
+            <td><input type="text" value="IDR 55.000"></td>
+        </tr>
+        <tr>
+            <td><label>Payment Method</label></td>
+            <td>
+                <select>
+                    <option>-- Select Bank --</option>
+                    <option>Bank BCA</option>
+                    <option>Bank BRI</option>
+                    <option>Bank BSI</option>
+                    <option>Bank BNI</option>
+                </select>
+            </td>
+        </tr>
+        <tr>
+            <td><label>Account Number</label></td>
+            <td><input type="text" value="069-173-4570"></td>
+        </tr>
+        <tr>
+            <td><label>Account Holder</label></td>
+            <td><input type="text" value="Abdullah Azzam"></td>
+        </tr>
+        <tr>
+            <td><label>Transfer Note</label></td>
+            <td class="small-text">
+                <input type="checkbox"> Include order number in transfer note
+            </td>
+        </tr>
+        <tr>
+            <td><label>Send to Mobile Phone</label></td>
+            <td><input type="text" value="085894490594"></td>
+        </tr>
+        <tr>
+            <td><label>Send to Email</label></td>
+            <td><input type="text" value="@nashifffauzan@gmail.com"></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td><button class="btn-green">Generate Payment Link</button></td>
+        </tr>
+    </table>
+</div>
+
+</body>
+</html>
