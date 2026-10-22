@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+    <title>Profil Abdullah Azzam</title>
+</head>
+
+<body>
+
+<header>
+    <h1>Profil Abdullah Azzam</h1>
+    <p>Mahasiswa Teknik Informatika</p>
+    <hr>
+</header>
+
+<nav>
+    <a href="#profil">Profil</a> |
+    <a href="#tentang">Tentang Saya</a> |
+    <a href="#video">Video</a> |
+    <a href="#galeri">Galeri</a> |
+    <a href="#download">Download</a>
+</nav>
+
+<hr>
+
+<main>
+
+<article>
+
+<section id="profil">
+    <h2>Biodata Diri</h2>
+
+    <img src="foto/az.jpg"
+         alt="Foto Profil"
+         width="150">
+
+    <p>Nama: Abdullah Azzam</p>
+    <p>Status: Mahasiswa</p>
+    <p>Program Studi: Teknik Informatika</p>
+    <p>Kampus: STT Terpadu Nurul Fikri</p>
+    <p>Minat: Cyber Security</p>
+</section>
+
+<hr>
+
+<section id="tentang">
+    <h2>Tentang Saya</h2>
+
+    <p>
+        Saya adalah mahasiswa Teknik Informatika yang sedang
+        belajar pemrograman dan teknologi komputer. Saya mulai
+        mempelajari HTML dan Python untuk menambah pengetahuan
+        serta kemampuan di bidang teknologi informasi.
+    </p>
+
+    <p>
+        Saya tertarik pada bidang Cyber Security, terutama
+        keamanan jaringan dan sistem komputer. Saya ingin
+        terus belajar dan mengembangkan kemampuan agar dapat
+        memahami keamanan teknologi dengan lebih baik.
+    </p>
+</section>
+
+<hr>
+
+<section id="video">
+    <h2>Video</h2>
+
+    <video width="300" controls>
+        <source src="foto/as.mp4" type="video/mp4">
+        Browser tidak mendukung video.
+    </video>
+</section>
+
+<hr>
+
+<section id="galeri">
+    <h2>Koleksi Foto</h2>
+
+    <img src="foto/mt.jpg"
+         alt="Foto pertama" width="250">
+
+    <img src="foto/TI.jpg"
+         alt="Foto kedua" width="120">
+
+    <img src="foto/bg.jpg"
+         alt="Foto ketiga" width="120">
+</section>
+
+<hr>
+
+<section id="download">
+    <h2>Download File</h2>
+
+    <p>
+        <a href="foto/file.pdf" download>
+            Download file Saya
+        </a>
+    </p>
+</section>
+
+</article>
+
+<aside>
+    <h3>Informasi Tambahan</h3>
+    <p>Hobi: futsal.</p>
+    <p>Bidang yang diminati: Cyber Security.</p>
+</aside>
+
+</main>
+
+<hr>
+
+<footer>
+    <p>&copy; 2026 Abdullah Azzam</p>
+</footer>
+
+</body>
+</html>
