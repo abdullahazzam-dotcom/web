@@ -2,83 +2,31 @@
 <html lang="id">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport"
-          content="width=device-width, initial-scale=1.0">
-    <title>Profil Abdullah Azzam</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Praktikum 3 - Layout IFRAME</title>
+    <style>
+        * { box-sizing: border-box; }
+        html, body { margin: 0; height: 100%; }
+        iframe { border: none; display: block; }
+
+        .container { display: flex; flex-direction: column; height: 100vh; }
+        .header  { height: 100px; width: 100%; }
+        .tengah  { flex: 1; display: flex; min-height: 0; }
+        .sidebar { width: 180px; height: 100%; border-right: 2px solid gray; }
+        .main    { flex: 1; height: 100%; }
+        .footer  { height: 50px; width: 100%; }
+    </style>
 </head>
-
 <body>
+    <div class="container">
+        <iframe class="header" src="header.html"></iframe>
 
-<header>
-    <h1>Profil Abdullah Azzam</h1>
-    <p>Mahasiswa Teknik Informatika</p>
-    <hr>
-</header>
+        <div class="tengah">
+            <iframe class="sedbar" src="sedbar.html"></iframe>
+            <iframe class="main" name="main" src="main.html"></iframe>
+        </div>
 
-<nav>
-    <a href="#profil">Profil</a> |
-    <a href="#tentang">Tentang Saya</a> |
-    <a href="#video">Video</a> |
-    <a href="#galeri">Galeri</a> |
-</nav>
-
-<hr>
-
-<main>
-
-<article>
-
-    <h1>Abdullah Azzam</h1>
-
-    <img src="foto/az.jpg" alt="Foto Profil" width="150">
-
-    <p>Alamatnya rahasia... Pura Gangster, 162042</p>
-    <p>Email: <a href="mailto: nashifffauzan@gmail.com">nashifffauzan@gmail.com</a></p>
-    <p>Telepon: <a href="tel:083176220639">0831 7622 0639</a></p>
-
-    <h3>Categori</h3>
-    <ul>
-        <li>Teknologi</li>
-        <li>Pendidikan</li>
-        <li>Hobi</li>
-    </ul>
-
-    <h2>Tentang Saya</h2>
-    <p>
-        Halo, nama saya Abdullah Azzam merupakan mahasiswa Teknik Informatika 
-        yang tertarik mempelajari teknologi, pemrograman, dan perkembangan dunia komputer. 
-        Saya senang mempelajari hal baru serta memahami bagaimana teknologi dapat digunakan 
-        untuk menyelesaikan berbagai permasalahan.
-    </p>
-    <p>
-        Saya ingin terus mengembangkan kemampuan dalam bidang teknologi. Sebagai mahasiswa 
-        S1 Teknik Informatika di Sekolah Tinggi Teknologi Terpadu Nurul Fikri, saya sedang 
-        membangun fondasi yang kuat dalam pengembangan perangkat lunak dan pemecahan masalah 
-        berbasis teknologi.
-    </p>
-
-    <h2>Video Profil</h2>
-    <video width="350" height="300" controls>
-        <source src="foto/as.mp4" type="video/mp4">
-        Browser kamu tidak mendukung video.
-    </video>
-    <p>Video perkenalan diri</p>
-
-    <h2>Koleksi Foto</h2>
-    <div>
-        <img src="foto/mt.jpg" alt="Foto koleksi pertama" width="100">
-        <img src="foto/TI.jpg" alt="Foto koleksi kedua" width="85">
-        <img src="foto/bg.jpg" alt="Foto koleksi ketiga" width="100">
-        <img src="foto/immo.jpg" alt="Foto koleksi keempat" width="100">
+        <iframe class="footer" src="footer.html"></iframe>
     </div>
-
-    <h2>Attachments</h2>
-    <ul>
-        <li><a href="foto/CV_Abdullah Azzam.pdf" download>CV.pdf</a></li>
-        <li><a href="foto/th.mp4" download>Portofolio.pdf</a></li>
-        <li><a href="foto/sertifikat.jpg" download>Sertifikat.pdf</a></li>
-        <li><a href="foto/R.jpg" download>Dokumen Lain.pdf</a></li>
-    </ul>
-
 </body>
 </html>
