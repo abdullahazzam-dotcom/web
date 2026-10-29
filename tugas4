@@ -1,0 +1,524 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alpukat Buah Nikmat Kaya Manfaat</title>
+    <style>
+        body {
+            background-color: #b8d4e8; /* agak lebih tua dari lightblue */
+            font-family: 'Segoe UI', Verdana, sans-serif;
+            margin: 0;
+            padding: 25px 40px;
+            line-height: 1.6;
+            color: #222;
+        }
+
+        h1 {
+            text-align: center;
+            color: #2c1a7a; /* lebih gelap dari blueviolet */
+            font-size: 2em;
+            margin-bottom: 25px;
+        }
+
+        p {
+            text-align: justify;
+            max-width: 980px;
+            margin: 14px auto;
+        }
+
+        .gambar-tengah {
+            display: block;
+            margin: 20px auto;
+            width: 220px;
+            border-radius: 14px;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+        }
+
+        /* Kotak Khasiat */
+        .khasiat {
+            background-color: #4a5d3a; /* hijau lebih gelap */
+            color: #f5f5dc;
+            width: 620px;
+            margin: 35px auto;
+            padding: 22px 30px;
+            border-radius: 10px;
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 18px 30px;
+        }
+
+        .khasiat h3 {
+            grid-column: 1 / -1;
+            text-align: center;
+            color: #e8d48b;
+            margin: 0 0 10px 0;
+            font-size: 1.25em;
+        }
+
+        .khasiat strong {
+            color: #fff;
+        }
+
+        /* Galeri foto hitam */
+        .galeri {
+            background-color: #111;
+            padding: 28px 15px;
+            margin: 40px -40px 30px;
+            display: flex;
+            justify-content: center;
+            gap: 18px;
+            flex-wrap: wrap;
+        }
+
+        .galeri img {
+            width: 210px;
+            height: 160px;
+            object-fit: cover;
+            border-radius: 14px;
+            border: 3px solid #333;
+        }
+
+        /* Penawaran */
+        .penawaran {
+            text-align: center;
+            margin: 30px 0 25px;
+        }
+
+        .penawaran h2 {
+            color: #c0392b;
+            font-size: 1.5em;
+            margin-bottom: 8px;
+            line-height: 1.3;
+        }
+
+        .harga-coret {
+            text-decoration: line-through;
+            color: #555;
+            font-size: 1.05em;
+        }
+
+        .harga-baru {
+            color: #c0392b;
+            font-size: 1.25em;
+            font-weight: bold;
+            margin-top: 4px;
+        }
+
+        /* Tabel */
+        table {
+            width: 92%;
+            margin: 25px auto;
+            border-collapse: collapse;
+            text-align: center;
+            font-size: 0.95em;
+        }
+
+        th {
+            background-color: #2980b9;
+            color: white;
+            padding: 12px 8px;
+        }
+
+        td {
+            padding: 10px 8px;
+            border: 1px solid #bbb;
+        }
+
+        tr:nth-child(even) {
+            background-color: #d6eaf8;
+        }
+
+        tr:nth-child(odd) {
+            background-color: #ffffff;
+        }
+
+        /* Kotak COD */
+        .cod {
+            width: 320px;
+            margin: 25px 0 15px 40px;
+            background-color: #7fdbda;
+            border: 2px dotted #1a5276;
+            padding: 12px 15px;
+            text-align: center;
+            font-weight: bold;
+            color: #1a5276;
+            font-size: 0.9em;
+            line-height: 1.5;
+            border-radius: 4px;
+        }
+
+        /* Tombol */
+        .btn-pesan {
+            display: inline-block;
+            background-color: #f1c40f;
+            color: #1a1a1a;
+            padding: 9px 22px;
+            font-weight: bold;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            margin-left: 40px;
+            font-size: 0.95em;
+            transition: 0.2s;
+        }
+
+        .btn-pesan:hover {
+            background-color: #d4ac0d;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Alpukat Buah Nikmat Kaya Manfaat</h1>
+
+    <img src="foto/alpukat.jpg" 
+         alt="Alpukat di pohon" class="gambar-tengah">
+
+    <p>
+        Alpukat merupakan jenis buah yang memiliki kandungan lemak tinggi, sekitar 20 kali lebih tinggi dibanding buah-buahan lain. 
+        Nama latin tanaman alpukat adalah Persea americana, diyakini berasal dari Amerika Tengah. Buah ini dikenalkan ke Indonesia oleh Hindia Belanda sekitar tahun 1920-1930. 
+        Belanda saat itu membawa alpukat ke Indonesia untuk memenuhi kebutuhan lemak masyarakat yang tinggal di pegunungan.
+    </p>
+
+    <p>
+        Di Indonesia, tanaman alpukat masih merupakan tanaman pekarangan, belum dibudidayakan dalam skala usahatani. 
+        Daerah penghasil alpukat adalah Jawa Barat, Jawa Timur, sebagian Sumatera, Sulawesi Selatan, dan Nusa Tenggara.
+    </p>
+
+    <p>
+        Pohon Alpukat, dengan batang mencapai tinggi 20 m dengan daun sepanjang 12 hingga 25 cm. Bunganya tersembunyi dengan 
+        warna hijau kekuningan dan ukuran 5 hingga 10 milimeter. Ukurannya bervariasi dari 7 hingga 20 sentimeter, dengan 
+        massa 100 hingga 1000 gram; biji yang besar, 5 hingga 6,4 sentimeter.
+    </p>
+
+    <img src="foto/jusalpukat.png" 
+         alt="Jus Alpukat" class="gambar-tengah">
+
+    <p>
+        Jus alpukat termasuk salah satu minuman yang banyak digemari. Buah hijau satu ini memang dikenal lezat dan sehat. 
+        Dilansir dari medicalnewstoday.com, alpukat mengandung berbagai jenis vitamin, asam folat, magnesium, hingga potassium. 
+        Alpukat juga cocok dikonsumsi saat diet karena tidak bikin gendut.
+    </p>
+
+    <p>
+        Dalam satu sajian buah alpukat (sekitar 50 gram) terdapat mengandung 80 kalori, 8 gram lemak, 4 gram karbohidrat 
+        dan sekitar 1 gram protein. Selain itu terdapat juga berbagai macam vitamin seperti E, K, B5 dan B6.
+    </p>
+
+    <!-- Kotak Khasiat -->
+    <div class="khasiat">
+        <h3>Berikut khasiat buah Alpukat:</h3>
+        
+        <div>
+            <strong>1. Vitamin E</strong><br>
+            Memiliki <em>anti aging</em> yang bisa mendorong perawatan kulit alami
+        </div>
+        
+        <div>
+            <strong>3. Vitamin B5</strong><br>
+            Membantu menurunkan tingkat stress, meringankan rasa sakit
+        </div>
+        
+        <div>
+            <strong>2. Vitamin K</strong><br>
+            Membantu mencegah terjadinya osteoporosis
+        </div>
+        
+        <div>
+            <strong>4. Vitamin B6</strong><br>
+            Membantu treat diabetes, pendarahan menstruasi, insomnia
+        </div>
+    </div>
+
+    <!-- Galeri 4 gambar -->
+    <div class="galeri">
+        <img src="foto/alpukat_miki.png" alt="Alpukat 1">
+        <img src="foto/alpukat_mentega.png" alt="Alpukat 2">
+        <img src="foto/alpukat_kendil.png" alt="Alpukat 3">
+        <img src="foto/alpukat_aligator.png" alt="Alpukat 4">
+    </div>
+
+    <!-- Penawaran -->
+    <div class="penawaran">
+        <h2>Anda ingin Buah Alpukat?,<br>Penawaran Khusus Bagi Anda</h2>
+        <div class="harga-coret">Harga 1 Kg Rp. 45.000</div>
+        <div class="harga-baru">
+            Nah sekarang Rp. 30.000 saja<br>
+            Gimana? Tertarik !
+        </div>
+    </div>
+
+    <!-- Tabel Harga -->
+    <table>
+        <thead>
+            <tr>
+                <th>No</th>
+                <th>Jenis Alpukat</th>
+                <th>Harga 1 Kg</th>
+                <th>Harga 2Kg</th>
+                <th>Harga 3Kg</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td>Alpukat Mentega</td>
+                <td>Rp. 30.000, -</td>
+                <td>Rp. 60.000, -</td>
+                <td>Rp. 85.000, -</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Alpukat Miki</td>
+                <td>Rp. 45.000, -</td>
+                <td>Rp. 90.000, -</td>
+                <td>Rp. 125.000, -</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>Alpukat Aligator</td>
+                <td>Rp. 35.000, -</td>
+                <td>Rp. 65.000, -</td>
+                <td>Rp. 85.000, -</td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td>Alpukat Kendil</td>
+                <td>Rp. 35.000, -</td>
+                <td>Rp. 65.000, -</td>
+                <td>Rp. 100.000, -</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <!-- COD + Tombol -->
+    <div class="cod">
+        PEMBAYARAN DI TEMPAT / COD<br>
+        hanya untuk Jakarta, Bekasi dan Depok<br>
+        POTONGAN ONGKIR Rp.5.000,-<br>
+        UNTUK PEMBELIAN VIA TRANSFER
+    </div>
+
+    <button class="btn-pesan">PESAN SEKARANG</button>
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="ID">
+    <head>
+        <title>Burung Perkutut Jawa</title>
+        <meta name="description" content="Budidaya Perkutut Jawa">
+        <style type="text/css" media="all">
+        /* Pengaturan halaman */
+body {
+    margin: 0;
+    padding: 20px;
+    background-color: #f5f5dc;
+    font-family: Arial, sans-serif;
+    color: #222;
+    font-size: 12px;
+}
+
+/* Judul utama */
+h1 {
+    background-color: #deb887;
+    color: blue;
+    text-align: center;
+    font-size: 24px;
+    padding: 15px 5px;
+    margin: 0;
+    border: 1px solid #ccc;
+}
+
+/* Kutipan */
+blockquote {
+    background-color: #ffeb00;
+    color: #333;
+    text-align: center;
+    padding: 8px;
+    margin: 0 0 15px;
+    font-size: 11px;
+}
+
+/* Menu navigasi */
+nav {
+    text-align: center;
+    margin: 15px 0;
+}
+
+nav a {
+    color: #555;
+    text-decoration: underline;
+    margin: 0 5px;
+}
+
+/* Gambar burung */
+img {
+    width: 170px;
+    height: 130px;
+    object-fit: cover;
+    margin: 3px;
+}
+
+/* Bagian gambar */
+.gambar {
+    text-align: center;
+    margin: 15px 0;
+}
+
+/* Paragraf */
+p {
+    text-align: justify;
+    line-height: 1.5;
+    margin: 8px 0;
+}
+
+/* Huruf pertama paragraf */
+p:first-of-type::first-letter {
+    font-size: 36px;
+    color: blue;
+    float: left;
+    padding-right: 4px;
+}
+
+/* Subjudul */
+h2 {
+    font-size: 16px;
+    margin-top: 15px;
+    margin-bottom: 8px;
+}
+
+/* Tampilan HP */
+@media screen and (max-width: 600px) {
+    body {
+        padding: 10px;
+        font-size: 12px;
+    }
+    
+    h1 {
+        font-size: 20px;
+    }
+    
+    img {
+        width: 42%;
+        height: auto;
+    }
+}
+    </style>
+    </head>
+    <body>
+        <div id="header">
+            <h1>Perkutut Jawa Suara Emas Penghibur Hati</h1>
+            <blockquote>
+                Jikalau aku mendengarkan burung Perkutut
+menyanyi di pohon ditiup angin yang sepoi-sepoi
+bukan lagi aku mendengarkan burung Perkutut
+Aku mendengarkan Indonesia <br/>
+                <span id="soekarno">Soekarno - President RI I</span>
+            </blockquote>
+        </div>
+        <div>
+            <ul>
+            <li><a href="#profil">Profil</a></li>
+            <li><a href="#berternak">Budidaya</a></li>
+            <li><a href="#harga">Harga</a></li>
+            </ul>
+
+        </div>
+        <div class="gambar">
+            <img src="foto/burung perkutut jawa.jpg" alt="Burung Perkutut Jawa"/>
+            <img src="foto/br.jpg" alt="Burung Suara Emas"/>       
+        </div>
+        <div class="isi">
+            <p>
+                Burung <span class="jawa">Perkutut Jawa</span> dengan nama latin <i>Geopelia striata</i> bukan hanya burung yang mampu bersuara, 
+                akan tetapi burung ini mempunyai beragam keunikan yang tidak dimiliki oleh burung lainnya. Bagi sebagian pemelihara burung, dengan hanya melihat perkutut, 
+                sudah bisa memastikan bagaimana suara yang akan dihasilkan.
+                Salah satu kebiasaan dari burung ini adalah terbang dan bertengger di kebun atau ladang. Selain itu, mereka juga sering mencari makan di jalan yang jarang dilintasi oleh manusia </p>
+            <p>
+                Perkutut Jawa  hidup berpasangan atau kelompok kecil. Perkutut jawa makan di permukaan tanah. Kadang mereka berkumpul untuk minum di sumber air.
+                 Sarangnya berbentuk datar tipis dan terbuat dari ranting-ranting. 
+                 Telur berwarna putih, jumlah 2 butir. Perkutut jawa berbiak pada bulan Januari-September. 
+             </p>
+           
+        </div>
+        <div id="profil">
+            
+            <h3>Profil Perkutut Jawa</h3>
+            <a name="profil"/>
+            <ul>
+                <li>Burung perkutut jawa (Geopelia striata) atau dikenal juga sebagai perkutut lokal mempunyai tubuh ramping panjang berukuran sedang, sekitar 20-25 cm, ukuran ekor pendek dengan kepala membulat</li>
+                <li>Burung pemakan biji-bijian ini biasanya dipelihara oleh orang Jawa yang mempunyai sebagai burung kicauan karena suaranya yang khas dan dianggap membawa keberuntungan</li>
+                <li>Burung dengan nama latin Geopelia striata bukan hanya burung yang mampu bersuara, akan tetapi burung ini mempunyai beragam keunikan yang tidak dimiliki oleh burung lainnya.</li>
+                <li>Burung perkutut di alam memakan rerumputan, benih gulma dan serangga. Sehingga, dimungkinkan di alam mempunyai manfaat sebagai pengontrol alami gulma dan serangga.</li>
+            </ul>
+        </div>
+        <div id="beternak">
+            <h3>Cara Berternak Perkutut Jawa</h3>
+            <a name="berternak"/>
+            <ol>
+                <li><h4>Pemilihan Bibit</h4>
+                    <p>
+                        Bibit atau indukan burung perkutut yang akan dibudidayakan haruslah telah berumur ideal yaitu minimal berumur 4 bulan dan sebaiknya betina lebih tua dari jantan. Selain itu pilihlah bibit yang baik agar hasilnya juga baik, berikut ciri-ciri indukan perkutut yang baik
+                    </p>
+                </li>
+                <li><h4>Persiapan Kandang Budidaya</h4>
+                <p>
+                    Kandang yang digunakan untuk budidaya biasanya adalah kandang dengan ukuran tinggi bervariasi antara 45-180 cm, lebar 60 cm, panjang antara 100-180 cm, lantainya terbuat dari pasir atau tanah dan ataonya berupa asbes atau genting.
+                </p></li>
+                <li><h4>Proses Perjodohan</h4>
+                <p>
+                    Untuk menjodohkan burung perkutut ini, pertama masukkan perkutut yang akan dijodohkan ke dalam kandang ternak pada saat sore hari. Nemun perlu diperhatikan sebelum dimasukkan ke dalam kandang ternak kedua perkutut yang akan dijodohkan terlebih dahulu diberikan kacang hijau lunak, minyak ikan, vitamin E dan badannya dibasahi sedikit
+                </p></li>
+                <li><h4>Tahap Pemeliharaan Anakan</h4>
+                <p>
+                    Piyik atau anakan burung yang baru menetas, sebaiknya dipisahkan terlebih dahulu dari induknya jika sudah berumur 1-1,5 bulan. Pada usia tersebut, piyik biasanya sudah bisa makan sendiri. Tempatkan piyik dalam sangkar yang memiliki ukuran sekitar 50 cm x 70 cm x 50 cm dengan dalam satu sangkar diletakkan 8 sampai 10 ekor piyik burung perkutut
+                </p>
+                </li>
+            </ol>
+        </div>
+        <div class="koleksi">
+            <img src="foto/rb.jpg"/>
+            <img src="foto/sl.jpg"/>
+            <img src="foto/wj.jpg"/>
+            <img src="foto/aw.jpg"/>          
+        </div>
+        <div class="promo">
+            <h2>Tertarik untuk budidaya / memelihara Perkutut Jawa?, 
+                <br/>Penawaran Khusus Bagi Anda </h2>
+            <h3>
+                Harga 1 Ekor Perkutut Remaja <del>Rp. 75.000</del> <br/>
+                Sekarang cukup <strong>Rp. 50.000</strong> saja!
+                <br/>
+                <a name="harga"/>
+                Berminat hubung kami di <span id="Wa">WA - 085894490594</span>
+            </h3>
+            <h4>Kami Hadir juga di aplikasi eCommerce:</h4>
+
+<ol>
+    <li>
+        <a href="https://www.tokopedia.com/" target="_blank">
+            Tokopedia
+        </a>
+    </li>
+    <li>
+        <a href="https://www.bukalapak.com/" target="_blank">
+            Bukalapak
+        </a>
+    </li>
+    <li>
+        <a href="https://shopee.co.id/" target="_blank">
+            Shopee
+        </a>
+    </li>
+</ol>
